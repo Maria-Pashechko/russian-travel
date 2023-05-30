@@ -1,0 +1,53 @@
+.page {
+  background-color: #2a2c2f;
+  width: 1280px;
+  margin: auto;
+  font-family: 'Inter';  
+  /*-webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;*/
+}
+
+.header {
+  border: 1px solid lightskyblue;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1184px;
+  height: 52px;
+  margin: 0 48px;
+  padding-top: 28px;
+}
+
+.header__logo {
+  border: 1px solid lightcoral;
+  width: 176px;
+  height: 52px;
+}
+
+.ul {
+  border: 0.5px solid lightcoral;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 30px);
+  grid-template-rows: 28px;
+  gap: 18px;
+  margin: 0;
+  padding-top: calc(46px - 28px);
+}
+
+.header__lang-link {
+  margin: 0;
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.header__lang-link:active {
+  text-decoration: underline; 
+  /*черта под выбранным языком должна сохраняться - подумать как сделать*/
+}
