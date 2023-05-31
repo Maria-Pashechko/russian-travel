@@ -1,8 +1,11 @@
+@import url(./vendor/normalize.css);
+@import url(./fonts/fonts.css);
+
 .page {
   background-color: #2a2c2f;
-  width: 1280px;
+  max-width: 1280px;
   margin: auto;
-  font-family: 'Inter';  
+  font-family: 'Inter', sans-serif;
   /*-webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
@@ -44,10 +47,79 @@
   color: #fff;
   font-size: 24px;
   font-weight: 400;
-  line-height: 28px;
+  line-height: calc(28px/16px);
 }
 
 .header__lang-link:active {
   text-decoration: underline; 
   /*черта под выбранным языком должна сохраняться - подумать как сделать*/
+}
+
+.content {
+  border: 1px solid lightskyblue;
+  margin: 0;
+  width: 77%;
+  padding: 0 148px;
+}
+
+.lead {
+  /*border: 1px solid orange;*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 1005px;
+}
+
+.lead__title {
+  margin: 0 0 32px;
+  color: #fff;
+  max-width: 720px;
+  max-height: 200px;
+  font-style: normal;
+  font-size: 96px;
+  font-weight: 900;
+  line-height: 1.04;
+  text-align: center;
+}
+
+.lead__subtitle {
+  margin: 0 0 64px;
+  color: #fff;
+  max-width: 720px;
+  max-height: 200px;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.lead__image {
+  border: 1px solid lightsalmon;
+  width: 100%;
+  min-height: 615px;
+  background-image: url(./images/kalegin-michail-179870-unsplash.jpg);
+  background-size: cover;
+  background-position: center;  
+}
+
+.group4 {
+  border: 1px solid whitesmoke;
+  max-width: 937px;
+  max-height: 263px;
+  /*position: relative;
+  top: 90px;
+  left: 23px;*/
+}
+
+.lead__caption {
+  margin: 8px 0;
+  color: #fff;
+  align-self: start;
+  min-width: 158px;
+  max-height: 14px;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 1.5px;
 }
