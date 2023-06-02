@@ -1,0 +1,170 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+
+@import url(../blocks/root/root.css); /*префиксы для всех браузеров нужны?*/
+@import url(../blocks/page/page.css); 
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/ul/ul.css);
+@import url(../blocks/header/__lang-links/header__lang-links.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/__lang-link_active/header__lang-link_active.css);
+
+@import url(../blocks/content/content.css);
+
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__group4/lead__group4.css);
+@import url(../blocks/lead/__caption/lead__caption.css);
+
+/*@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 768px) {
+  
+}
+
+@media screen and (max-width: 320px) {
+  
+}*/
+
+.intro {
+  max-width: 690px;
+  display: flex;
+  flex-direction: column;
+  margin: 92px 0 92px 148px;
+}
+
+.intro__title {
+  color: #fff;
+  margin: 0 0 40px;
+  max-height: 58px;
+  font-style: normal;
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 1.07;
+  text-align: center;
+}
+
+.intro__text {
+  color: #fff;
+  margin: 0 0 33px;
+  max-height: 208px;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.63;
+}
+
+.intro__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  max-height: 90px;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.li-span {
+  font-weight: 400;
+}
+
+.photo-grid {
+  margin: 92px 48px;
+  max-width: 1184px;
+  min-height: 671px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 284px));
+  grid-template-rows: repeat(auto-fit, minmax(200px, 213px));
+  gap: 16px;
+  /*box-sizing: border-box;*/
+}
+
+/*.photo-grid__item {
+
+}*/
+
+.places {
+  margin: 0 148px;
+  display: flex;
+  flex-direction: column;
+  max-width: 984px;
+}
+
+.place {
+  border: 1px solid lightsalmon;
+  display: flex;
+  justify-content: space-between;
+  height: 660px;
+}
+
+.place__left-column {
+  border: 1px solid lightpink;
+  max-width: 460px;
+  margin-right: 40px;
+}
+
+.place__right-column {
+  border: 1px solid lightpink;
+  max-width: 484px;
+}
+
+.cover {
+  border: 1px solid lightskyblue;
+  margin: 92px 48px;
+  max-width: 1184px;
+  height: 740px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/dmitrii-vaccinium-22833-unsplash.jpg);
+  background-size: cover;
+}
+
+.cover__overlay {
+  border: 1px solid lightpink;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #2a2c2f;
+  opacity: .3;
+}
+
+.cover__title { 
+  margin: 0 0 32px;
+  max-width: 560px; 
+  max-height: 152px;
+  color: #fff;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: calc(76px/16px);
+  text-align: center;
+  z-index: 1;
+}
+
+.cover__subtitle {
+  margin: 0;
+  max-width: 360px; 
+  max-height: 66px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.22;
+  text-align: center;
+  z-index: 1;
+}
+
+.footer {
+  margin: 0 48px;
+  min-height: 18px;
+}
