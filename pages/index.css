@@ -20,6 +20,11 @@
 @import url(../blocks/lead/__group4/lead__group4.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
 
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__list/intro__list.css);
+
 /*@media screen and (max-width: 1024px) {
 
 }
@@ -31,50 +36,6 @@
 @media screen and (max-width: 320px) {
   
 }*/
-
-.intro {
-  max-width: 690px;
-  display: flex;
-  flex-direction: column;
-  margin: 92px 0 92px 148px;
-}
-
-.intro__title {
-  color: #fff;
-  margin: 0 0 40px;
-  max-height: 58px;
-  font-style: normal;
-  font-size: 54px;
-  font-weight: 900;
-  line-height: 1.07;
-  text-align: center;
-}
-
-.intro__text {
-  color: #fff;
-  margin: 0 0 33px;
-  max-height: 208px;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.63;
-}
-
-.intro__list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  color: #fff;
-  max-height: 90px;
-  font-style: normal;
-  font-size: 12px;
-  font-weight: 700;
-  line-height: 1.5;
-}
-
-.li-span {
-  font-weight: 400;
-}
 
 .photo-grid {
   margin: 92px 48px;
