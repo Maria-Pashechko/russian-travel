@@ -1,7 +1,7 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
 
-@import url(../blocks/root/root.css); /*префиксы для всех браузеров нужны?*/
+@import url(../blocks/root/root.css); /*подключение шрифтов + префиксы сглаживания, подгонки размера текста, рендеринга */
 @import url(../blocks/page/page.css); 
 
 @import url(../blocks/header/header.css);
@@ -29,6 +29,17 @@
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 @import url(../blocks/photo-grid/__item/__item_1/photo-grid__item_1.css);
 
+@import url(../blocks/places/places.css); 
+@import url(../blocks/place/place.css); /*рассчитать фракции для всех расширений*/
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__website/place__website.css);
+@import url(../blocks/place/__website-url/place__website-url.css);
+@import url(../blocks/place/__website-link/place__website-link.css);
+@import url(../blocks/place/__image/place__image.css); 
+@import url(../blocks/place/__paragraph/place__paragraph.css); /*перенос слов текста не совпадает...*/
+@import url(../blocks/place/__paragraph-top/place__paragraph-top.css);
+@import url(../blocks/place/__paragraph-bottom/place__paragraph-bottom.css);
+
 /*@media screen and (max-width: 1024px) {
 
 }
@@ -40,44 +51,8 @@
 @media screen and (max-width: 320px) {
   
 }*/
+ 
 
-/*.photo-grid {
-  margin: 92px 48px;
-  max-width: 1184px;
-  min-height: 671px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, 284px); /*minmax(250px, 284px)*/
-  /* grid-template-rows: repeat(auto-fit, 213px); /*minmax(200px, 213px)*/
-  /*gap: 16px;
-  /*box-sizing: border-box;
-}*/
-
-
-
-.places {
-  margin: 0 148px;
-  display: flex;
-  flex-direction: column;
-  max-width: 984px;
-}
-
-.place {
-  border: 1px solid lightsalmon;
-  display: flex;
-  justify-content: space-between;
-  height: 660px;
-}
-
-.place__left-column {
-  border: 1px solid lightpink;
-  max-width: 460px;
-  margin-right: 40px;
-}
-
-.place__right-column {
-  border: 1px solid lightpink;
-  max-width: 484px;
-}
 
 .cover {
   border: 1px solid lightskyblue;

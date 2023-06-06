@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-height: 1005px;
+  min-height: 1005px;
   margin: 0 148px;
   padding-top: 56px;
 }
@@ -10,7 +10,7 @@
 @media screen and (max-width: 1024px) {
   .lead { 
     max-width: 928px;
-    max-height: 962px;
+    min-height: 962px;
     margin: 0 48px;
     padding-top: 48px;
   }
@@ -19,7 +19,7 @@
 @media screen and (max-width: 768px) {
   .lead { 
     max-width: 768px;
-    max-height: 862px;
+    min-height: 862px;
     margin: 0;
   }
 }
@@ -27,6 +27,6 @@
 @media screen and (max-width: 320px) {
   .lead { 
     max-width: 320px;
-    max-height: 406px;
+    min-height: 406px;
   }
 }

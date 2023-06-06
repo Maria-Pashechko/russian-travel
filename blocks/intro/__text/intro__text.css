@@ -1,7 +1,7 @@
 .intro__text {
   color: #fff;
   margin: 0 0 33px;
-  max-height: 208px;
+  min-height: 208px;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
