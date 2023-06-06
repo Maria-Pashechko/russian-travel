@@ -25,6 +25,10 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
 
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
+@import url(../blocks/photo-grid/__item/__item_1/photo-grid__item_1.css);
+
 /*@media screen and (max-width: 1024px) {
 
 }
@@ -37,20 +41,18 @@
   
 }*/
 
-.photo-grid {
+/*.photo-grid {
   margin: 92px 48px;
   max-width: 1184px;
   min-height: 671px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 284px));
-  grid-template-rows: repeat(auto-fit, minmax(200px, 213px));
-  gap: 16px;
-  /*box-sizing: border-box;*/
-}
-
-/*.photo-grid__item {
-
+  grid-template-columns: repeat(auto-fit, 284px); /*minmax(250px, 284px)*/
+  /* grid-template-rows: repeat(auto-fit, 213px); /*minmax(200px, 213px)*/
+  /*gap: 16px;
+  /*box-sizing: border-box;
 }*/
+
+
 
 .places {
   margin: 0 148px;
