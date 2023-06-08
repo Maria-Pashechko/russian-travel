@@ -1,4 +1,10 @@
 .place__paragraph-bottom {
-  margin: 26px 0 0;
+  margin: 25px 0 0;
   align-self: end;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__paragraph-bottom {
+    max-width: 455px;
+  }
 }

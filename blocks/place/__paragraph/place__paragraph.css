@@ -10,8 +10,13 @@
 
 @media screen and (max-width: 768px) {
   .place__paragraph {
-  max-width: 352px;
   font-size: 16px;
   line-height: 26px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__paragraph {
+    margin: 0 16px;
   }
 }
