@@ -40,68 +40,23 @@
 @import url(../blocks/place/__paragraph-top/place__paragraph-top.css);
 @import url(../blocks/place/__paragraph-bottom/place__paragraph-bottom.css);
 
-/*@media screen and (max-width: 1024px) {
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__link/cover__link.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+@import url(../blocks/cover/__subtitle/__subtitle_phrase/cover__subtitle_phrase.css);
+
+/*@media screen and (max-width: 1279px) {
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   
 }*/
- 
-
-
-.cover {
-  border: 1px solid lightskyblue;
-  margin: 0 48px 92px;
-  max-width: 1184px;
-  width: 100%;
-  height: 740px;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-image: url(../images/dmitrii-vaccinium-22833-unsplash.jpg);
-  background-size: cover;
-}
-
-.cover__overlay {
-  border: 1px solid lightpink;
-  margin: 0;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background-color: #2a2c2f;
-  opacity: .3;
-}
-
-.cover__title { 
-  margin: 0 0 32px;
-  max-width: 560px; 
-  max-height: 152px;
-  color: #fff;
-  font-size: 72px;
-  font-weight: 900;
-  line-height: calc(76px/16px);
-  text-align: center;
-  z-index: 1;
-}
-
-.cover__subtitle {
-  margin: 0;
-  max-width: 360px; 
-  max-height: 66px;
-  color: #fff;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 1.22;
-  text-align: center;
-  z-index: 1;
-}
 
 .footer {
   margin: 0 48px;

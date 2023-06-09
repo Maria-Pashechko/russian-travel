@@ -3,7 +3,7 @@
   align-self: end;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   .place__paragraph-bottom {
     max-width: 455px;
   }
