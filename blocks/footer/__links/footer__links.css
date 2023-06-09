@@ -1,12 +1,12 @@
 .footer__links {
-  display: flex;  
+  display: flex;
 }
 
 @media screen and (max-width: 767px) {
   .footer__links {
-    min-height: 248px; /*310(общая высота) - 14(высота copyright) - 48(расстояние между ссылками и copyright*/
+    min-height: 248px;/*310(общая высота) - 14(высота copyright) - 48(расстояние между ссылками и copyright*/
     margin-bottom: 48px;
-    flex-direction: column;    
+    flex-direction: column;
     justify-content: space-between;
     align-items: start;
   }

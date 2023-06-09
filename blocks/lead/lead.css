@@ -8,7 +8,7 @@
 }
 
 @media screen and (max-width: 1279px) {
-  .lead { 
+  .lead {
     max-width: 928px;
     min-height: 962px;
     padding-top: 48px;
@@ -16,14 +16,14 @@
 }
 
 @media screen and (max-width: 1023px) {
-  .lead { 
+  .lead {
     max-width: 768px;
-    min-height: 862px;    
+    min-height: 862px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .lead { 
+  .lead {
     max-width: 320px;
     min-height: 406px;
   }

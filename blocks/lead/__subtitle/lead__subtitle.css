@@ -10,13 +10,13 @@
 }
 
 @media screen and (max-width: 1279px) {
-  .lead__subtitle { 
+  .lead__subtitle {
     margin: 0 0 56px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .lead__subtitle { 
+  .lead__subtitle {
     margin: 0 0 40px;
     max-width: 288px;
     min-height: 40px;
