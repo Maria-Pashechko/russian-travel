@@ -1,25 +1,24 @@
 .places {
-  margin: 0 148px 44px; /* нижний маргин расстояние между секциями 92 - gap-row грида 48*/
+  margin: 0 auto 44px; /* нижний маргин расстояние между секциями 92 - gap-row грида 48*/
   max-width: 984px;
 }
 
 @media screen and (max-width: 1279px) {
   .places {
-    margin: 0 48px 44px;
     max-width: 928px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .places {
-    margin: 0 24px 42px;
+    margin: 0 auto 42px;
     max-width: 720px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .places {
-    margin: 0 0 66px;
+    margin: 0 auto 66px;
     max-width: 320px;
   }
 }

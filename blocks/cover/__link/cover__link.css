@@ -2,8 +2,7 @@
   min-height: 740px;
   width: 100%;
   background-image: url(../../../images/dmitrii-vaccinium-22833-unsplash.jpg);
-  /*background-repeat: no-repeat;*/
-  /*background-position: 50% 50%;*/
+  background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   display: flex;
@@ -13,7 +12,6 @@
   text-decoration: none;
   color: #fff;
   z-index: 0;
-  /*box-sizing: border-box;*/
 }
 
 .cover__link::before {

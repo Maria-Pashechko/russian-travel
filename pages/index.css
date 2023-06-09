@@ -11,8 +11,6 @@
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__lang-link/__lang-link_active/header__lang-link_active.css);
 
-@import url(../blocks/content/content.css);
-
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
@@ -27,16 +25,15 @@
 
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
-@import url(../blocks/photo-grid/__item/__item_1/photo-grid__item_1.css);
 
 @import url(../blocks/places/places.css); 
-@import url(../blocks/place/place.css); /*рассчитать фракции для всех расширений*/
+@import url(../blocks/place/place.css);
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__website/place__website.css);
 @import url(../blocks/place/__website-url/place__website-url.css);
 @import url(../blocks/place/__website-link/place__website-link.css);
 @import url(../blocks/place/__image/place__image.css); 
-@import url(../blocks/place/__paragraph/place__paragraph.css); /*перенос слов текста не совпадает...*/
+@import url(../blocks/place/__paragraph/place__paragraph.css);
 @import url(../blocks/place/__paragraph-top/place__paragraph-top.css);
 @import url(../blocks/place/__paragraph-bottom/place__paragraph-bottom.css);
 
@@ -46,19 +43,7 @@
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__subtitle/__subtitle_phrase/cover__subtitle_phrase.css);
 
-/*@media screen and (max-width: 1279px) {
-
-}
-
-@media screen and (max-width: 1023px) {
-  
-}
-
-@media screen and (max-width: 767px) {
-  
-}*/
-
-.footer {
-  margin: 0 48px;
-  min-height: 18px;
-}
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);

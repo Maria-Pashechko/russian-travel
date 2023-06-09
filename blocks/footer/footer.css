@@ -1,0 +1,20 @@
+.footer {
+  margin: 0 48px;
+  padding: 0 0 24px;
+  max-width: 1184px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1023px) {
+  .footer {
+    margin: 0 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    margin: 0 0 24px 16px;
+    flex-direction: column;
+  }
+}
