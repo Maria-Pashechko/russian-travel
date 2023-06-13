@@ -1,9 +1,10 @@
 .photo-grid {
-  margin: 92px 48px;
-  width: 100%;
+  margin: 92px auto;
+  max-width: 95%;/* при 100% размер шире необходимого, появляется скролл */
+  justify-content: center;
   display: grid;
-  grid-template-columns: repeat(auto-fit, 284px); /*minmax ?*/
-  grid-template-rows: repeat(auto-fit, 213px); /*minmax ?*/
+  grid-template-columns: repeat(auto-fit, 284px);/* при замене значений на 1fr */
+  grid-template-rows: repeat(auto-fit, 213px);/* изображения выстраиваются в одну колонку*/
   gap: 16px;
 }
 
