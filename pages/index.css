@@ -7,9 +7,9 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__logo-russia/header__logo-russia.css);
-@import url(../blocks/ul/ul.css);
+@import url(../blocks/list/list.css);
 @import url(../blocks/link/link.css);
-@import url(../blocks/header/__lang-links/header__lang-links.css);
+@import url(../blocks/header/__lang-list/header__lang-list.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 
@@ -46,6 +46,6 @@
 @import url(../blocks/cover/__subtitle-phrase/cover__subtitle_phrase.css);
 
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__list/footer__list.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);

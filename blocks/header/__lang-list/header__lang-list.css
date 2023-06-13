@@ -1,4 +1,4 @@
-.header__lang-links {
+.header__lang-list {
   width: 78px;
   display: flex;
   justify-content: space-between;
@@ -6,7 +6,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .header__lang-links {
+  .header__lang-list {
     width: 62px;
   }
 }
