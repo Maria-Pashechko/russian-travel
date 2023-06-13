@@ -1,7 +1,6 @@
 .intro__text {
   color: #fff;
   margin: 0 0 33px;
-  min-height: 208px;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -11,6 +10,5 @@
 @media screen and (max-width: 767px) {
   .intro__text {
     margin-bottom: 34px;
-    min-height: 520px;
   }
 }
