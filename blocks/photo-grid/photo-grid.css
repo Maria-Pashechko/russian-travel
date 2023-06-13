@@ -1,35 +1,15 @@
 .photo-grid {
-  margin: 92px auto;
-  max-width: 95%;/* при 100% размер шире необходимого, появляется скролл */
-  justify-content: center;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, 284px);/* при замене значений на 1fr */
-  grid-template-rows: repeat(auto-fit, 213px);/* изображения выстраиваются в одну колонку*/
-  gap: 16px;
-}
-
-@media screen and (max-width: 1279px) {
-  .photo-grid {
-    grid-template-columns: repeat(auto-fit, 300px);
-    grid-template-rows: repeat(auto-fit, 225px);
-    gap: 14px;
-  }
+  margin: 92px 48px;
 }
 
 @media screen and (max-width: 1023px) {
   .photo-grid {
     margin: 88px 24px;
-    grid-template-columns: repeat(auto-fit, 352px);
-    grid-template-rows: repeat(auto-fit, 264px);
-    gap: 16px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .photo-grid {
     margin: 64px 16px;
-    grid-template-columns: repeat(auto-fit, 288px);
-    grid-template-rows: repeat(auto-fit, 216px);
-    gap: 12px;
   }
 }

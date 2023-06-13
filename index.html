@@ -8,6 +8,7 @@
   <meta name="keywords" content="путешествия, природа, Россия, Куршская коса, Кольский полуостров, Алтай, Байкал, Карелия">
   <meta name="description" content="Уникальные природные места России, которые стоит увидеть">
   <meta name="author" content="Мария Пашечко">
+  <link rel="icon" href="./images/favicon.ico" type="image">
   <link rel="stylesheet" href="./pages/index.css">
 
 </head>
@@ -25,11 +26,21 @@
     <main>
       <section class="lead">
         <h1 class="lead__title">Путешествия по России</h1>
-        <h2 class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</h2>
-        <div class="lead__image">
-          <img class="lead__group4" src="./images/Group4.svg" alt="карта Путешествия">
+        <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
+        <!-- блок-контейнер, расположенный ниже, не лишняя обертка для img,
+          он имеет фоновое изображение и содержит в себе кратинку, 
+          получается "картинка в картинке".
+            построить:
+            <figure>
+              <img>
+              <figcaption></figcaption>
+            </figure>
+          можно только в том случае, если использовать фоновую и вложенную картинку - 
+          как единое целое. Если нужен именно такой вариант - конечно, переделаю -->
+        <div class="lead__background-image">
+          <img class="lead__image-map" src="./images/image-map.svg" alt="карта Путешествия">
         </div>
-        <h3 class="lead__caption">ваша полка — верхняя</h3>
+        <p class="lead__caption">ваша полка — верхняя</p>
       </section>
       <section class="intro">
         <h2 class="intro__title">Чего мы там не видели?</h2>
@@ -43,19 +54,21 @@
           <li>Аэропортов <span class="intro__list-span">241</span></li>
         </ul>
       </section>
-      <section class="photo-grid">
-        <img class="photo-grid__item" src="./images/photo-grid/__item(1).jpg" alt="вид из окна поезда">
-        <img class="photo-grid__item" src="./images/photo-grid/__item(2).jpg" alt="снежный горный пик в облаках">
-        <img class="photo-grid__item" src="./images/photo-grid/__item(3).jpg" alt="собака на стоге сена в туманном поле">
-        <img class="photo-grid__item" src="./images/photo-grid/__item(4).jpg" alt="хвойный лес Сочи в тумане">
-        <img class="photo-grid__item" src="./images/photo-grid/__item(5).jpg" alt="автомобиль колесом стоит на льду">
-        <img class="photo-grid__item" src="./images/photo-grid/__item(6).jpg" alt="побережье озера Байкал на фоне горного хребта">
-        <img class="photo-grid__item" src="./images/photo-grid/__item(7).jpg" alt="Эльбрус">
-        <img class="photo-grid__item" src="./images/photo-grid/__item(8).jpg" alt="знак пешеходного перехода на фоне груды железобеонных усеченных конусов">
-        <img class="photo-grid__item" src="./images/photo-grid/__item(9).jpg" alt="рельеф Камчатки">
-        <img class="photo-grid__item" src="./images/photo-grid/__item(10).jpg" alt="природа Камчатки">
-        <img class="photo-grid__item" src="./images/photo-grid/__item(11).jpg" alt="природа озера Байкал">
-        <img class="photo-grid__item" src="./images/photo-grid/__item(12).jpg" alt="парк Ергаки">        
+      <section class="photo-grid" aria-label="фотографии путешественника">
+        <ul class="list photo-grid__list">
+          <li><img class="photo-grid__item" src="./images/photo-grid/__item(1).jpg" alt="вид из окна поезда"></li>
+          <li><img class="photo-grid__item" src="./images/photo-grid/__item(2).jpg" alt="снежный горный пик в облаках"></li>
+          <li><img class="photo-grid__item" src="./images/photo-grid/__item(3).jpg" alt="собака на стоге сена в туманном поле"></li>
+          <li><img class="photo-grid__item" src="./images/photo-grid/__item(4).jpg" alt="хвойный лес Сочи в тумане"></li>
+          <li><img class="photo-grid__item" src="./images/photo-grid/__item(5).jpg" alt="автомобиль колесом стоит на льду"></li>
+          <li><img class="photo-grid__item" src="./images/photo-grid/__item(6).jpg" alt="побережье озера Байкал на фоне горного хребта"></li>
+          <li><img class="photo-grid__item" src="./images/photo-grid/__item(7).jpg" alt="Эльбрус"></li>
+          <li><img class="photo-grid__item" src="./images/photo-grid/__item(8).jpg" alt="знак пешеходного перехода на фоне груды железобеонных усеченных конусов"></li>
+          <li><img class="photo-grid__item" src="./images/photo-grid/__item(9).jpg" alt="рельеф Камчатки"></li>
+          <li><img class="photo-grid__item" src="./images/photo-grid/__item(10).jpg" alt="природа Камчатки"></li>
+          <li><img class="photo-grid__item" src="./images/photo-grid/__item(11).jpg" alt="природа озера Байкал"></li>
+          <li><img class="photo-grid__item" src="./images/photo-grid/__item(12).jpg" alt="парк Ергаки"></li>
+        </ul>
       </section>
       <section class="places">
 

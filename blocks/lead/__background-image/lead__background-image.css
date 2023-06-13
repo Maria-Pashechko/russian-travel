@@ -1,4 +1,4 @@
-.lead__image {
+.lead__background-image {
   width: 100%;
   max-width: 984px;
   min-height: 615px;
@@ -8,19 +8,19 @@
 } 
 
 @media screen and (max-width: 1279px) {
-  .lead__image {
+  .lead__background-image {
     min-height: 580px;
   }
 }
 
 @media screen and (max-width: 1023px) {
-  .lead__image {
+  .lead__background-image {
     min-height: 480px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .lead__image {
+  .lead__background-image {
     min-height: 200px;
   }
 }
