@@ -28,7 +28,7 @@
 }
 
  .cover__link:hover::before { 
-  opacity: .8; 
+  opacity: .8;
  } 
 
 @media screen and (max-width: 1279px) {
